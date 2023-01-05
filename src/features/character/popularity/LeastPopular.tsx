@@ -11,14 +11,6 @@ interface ContainerProps {
   locationParams: { [key: string]: string };
 }
 
-//creating ids o^n
-//one api to fetch all and then run on charcters to see max
-// on^2
-
-//3 apis for episodes
-//running over episodes and residents o^n*m  and saving on map
-///getting max o(n)
-
 const LeastPopular: React.FC<ContainerProps> = ({ locationParams }) => {
   const dispatch = useAppDispatch();
   const [hasError, setHasError] = useState(false);
