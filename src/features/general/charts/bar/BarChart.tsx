@@ -44,7 +44,7 @@ const chartStyle = {
     flexDirection: "row",
     alignItems: "baseline",
     justifyContent: "space-around",
-    height: "90%",
+    height: { md: "90%", xs: "100%" },
   },
 };
 

@@ -23,6 +23,7 @@ const BarChartItem: React.FC<ContainerProps> = (props) => {
           height: `${precentage}%`,
           backgroundColor,
           display: "flex",
+          marginBottom: "5px",
         }}
       ></div>
       <Box component="label" sx={itemStyle.legend}>
@@ -35,7 +36,7 @@ const BarChartItem: React.FC<ContainerProps> = (props) => {
 const itemStyle = {
   legend: {
     textAlign: "center",
-    fontSize: { xs: "smaller", md: "medium" },
+    fontSize: { xs: "small", md: "medium" },
   },
 };
 
